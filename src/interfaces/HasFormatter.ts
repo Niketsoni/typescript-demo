@@ -1,3 +1,3 @@
-export interface HasFormatters {
+export interface HasFormatter {
   format(): string;
 }

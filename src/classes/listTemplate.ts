@@ -1,9 +1,9 @@
-import { HasFormatters } from "../interfaces/HasFormatter";
+import { HasFormatter } from "../interfaces/HasFormatter";
 
 export class ListTemplate {
   constructor(private container: HTMLUListElement) {}
 
-  render(item: HasFormatters, heading: string, pos: "start" | "end") {
+  render(item: HasFormatter, heading: string, pos: "start" | "end") {
     const li = document.createElement("li");
 
     const h4 = document.createElement("h4");

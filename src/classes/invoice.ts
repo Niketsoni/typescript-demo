@@ -1,6 +1,6 @@
-import { HasFormatters } from "../interfaces/HasFormatter";
+import { HasFormatter } from "../interfaces/HasFormatter";
 
-export class Invoice implements HasFormatters {
+export class Invoice implements HasFormatter {
   client: string;
   details: string;
   amount: number;
